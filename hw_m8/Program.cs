@@ -6,7 +6,7 @@ namespace hw_m8
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Input checking task");
+            Console.Write("Input checking task: ");
             int count = int.Parse(Console.ReadLine());
 
             switch ( count )
@@ -18,8 +18,9 @@ namespace hw_m8
                     PracticeDictionary taskDictionary = new PracticeDictionary();
                     break;
                 case 3:
+                    PracticeHashSet taskHashSet = new PracticeHashSet();
                     break;
-                case 4:
+                case 4:PracticeXML taskXML = new PracticeXML();
                     break;
             }
         }

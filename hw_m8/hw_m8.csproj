@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PersonForXML.cs" />
+    <Compile Include="PracticeXML.cs" />
+    <Compile Include="PracticeHashSet.cs" />
     <Compile Include="PracticeDictionary.cs" />
     <Compile Include="PracticeList.cs" />
     <Compile Include="Program.cs" />
